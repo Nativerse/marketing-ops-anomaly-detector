@@ -1,0 +1,5 @@
+date,campaign,anomaly_type,severity,current_value,baseline_value,description,action,source
+2026-02-06,,Form Conversion Crash,CRITICAL,14.6%,34.8%,Form conversion dropped 57.9%. Form likely broken.,"CHECK IMMEDIATELY: 1) Test form submission, 2) Check JavaScript errors, 3) Review recent deploys",Paid Search
+2026-02-04,,Scoring Model Flatlined,CRITICAL,Std Dev: 3.1,Std Dev: ~15,Score variance collapsed. All leads getting similar scores. Model likely broken.,"CHECK IMMEDIATELY: 1) Scoring rules, 2) Field calculations, 3) Recent workflow changes",Lead Scoring Model
+2026-02-03,,Scoring Model Flatlined,CRITICAL,Std Dev: 3.1,Std Dev: ~15,Score variance collapsed. All leads getting similar scores. Model likely broken.,"CHECK IMMEDIATELY: 1) Scoring rules, 2) Field calculations, 3) Recent workflow changes",Lead Scoring Model
+2026-02-02,,Scoring Model Flatlined,CRITICAL,Std Dev: 3.1,Std Dev: ~15,Score variance collapsed. All leads getting similar scores. Model likely broken.,"CHECK IMMEDIATELY: 1) Scoring rules, 2) Field calculations, 3) Recent workflow changes",Lead Scoring Model

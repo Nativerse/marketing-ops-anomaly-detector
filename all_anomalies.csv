@@ -1,0 +1,55 @@
+date,campaign,anomaly_type,severity,current_value,baseline_value,description,action,source
+2026-02-06,,Form Conversion Crash,CRITICAL,14.6%,34.8%,Form conversion dropped 57.9%. Form likely broken.,"CHECK IMMEDIATELY: 1) Test form submission, 2) Check JavaScript errors, 3) Review recent deploys",Paid Search
+2026-02-04,,Scoring Model Flatlined,CRITICAL,Std Dev: 3.1,Std Dev: ~15,Score variance collapsed. All leads getting similar scores. Model likely broken.,"CHECK IMMEDIATELY: 1) Scoring rules, 2) Field calculations, 3) Recent workflow changes",Lead Scoring Model
+2026-02-03,,Scoring Model Flatlined,CRITICAL,Std Dev: 3.1,Std Dev: ~15,Score variance collapsed. All leads getting similar scores. Model likely broken.,"CHECK IMMEDIATELY: 1) Scoring rules, 2) Field calculations, 3) Recent workflow changes",Lead Scoring Model
+2026-02-02,,Scoring Model Flatlined,CRITICAL,Std Dev: 3.1,Std Dev: ~15,Score variance collapsed. All leads getting similar scores. Model likely broken.,"CHECK IMMEDIATELY: 1) Scoring rules, 2) Field calculations, 3) Recent workflow changes",Lead Scoring Model
+2026-02-14,,Lead Volume Drop,HIGH,44 leads,66 leads,Lead volume dropped 33.2% below baseline. Possible traffic or form issue.,"Check: 1) Ad campaigns still running, 2) Form functionality, 3) Website errors",Organic
+2026-02-13,,Lead Volume Drop,HIGH,43 leads,83 leads,Lead volume dropped 48.3% below baseline. Possible traffic or form issue.,"Check: 1) Ad campaigns still running, 2) Form functionality, 3) Website errors",Organic
+2026-02-13,,SFMC Sync Delay,HIGH,64.8% synced,>95% synced,Only 64.8% of leads synced to SFMC. Integration delay.,"Check: 1) SFMC connector status, 2) API limits, 3) Field mapping errors",Organic
+2026-02-13,,SFMC Sync Delay,HIGH,64.8% synced,>95% synced,Only 64.8% of leads synced to SFMC. Integration delay.,"Check: 1) SFMC connector status, 2) API limits, 3) Field mapping errors",Paid Search
+2026-02-13,,SFMC Sync Delay,HIGH,64.8% synced,>95% synced,Only 64.8% of leads synced to SFMC. Integration delay.,"Check: 1) SFMC connector status, 2) API limits, 3) Field mapping errors",LinkedIn
+2026-02-13,,SFMC Sync Delay,HIGH,64.6% synced,>95% synced,Only 64.6% of leads synced to SFMC. Integration delay.,"Check: 1) SFMC connector status, 2) API limits, 3) Field mapping errors",Webinar
+2026-02-13,,SFMC Sync Delay,HIGH,64.3% synced,>95% synced,Only 64.3% of leads synced to SFMC. Integration delay.,"Check: 1) SFMC connector status, 2) API limits, 3) Field mapping errors",Content
+2026-02-12,,Lead Volume Drop,HIGH,37 leads,95 leads,Lead volume dropped 61.0% below baseline. Possible traffic or form issue.,"Check: 1) Ad campaigns still running, 2) Form functionality, 3) Website errors",Organic
+2026-02-11,,Lead Volume Drop,HIGH,32 leads,103 leads,Lead volume dropped 69.0% below baseline. Possible traffic or form issue.,"Check: 1) Ad campaigns still running, 2) Form functionality, 3) Website errors",Organic
+2026-02-08,Product_Launch_Email,Deliverability Drop,HIGH,59.9%,92.0%,Deliverability dropped 34.9% below baseline. Possible ISP block or API issue.,"Check: 1) Salesforce API logs, 2) SFMC sending IP reputation, 3) Bounce reasons",
+2026-02-08,Product_Launch_Email,High Bounce Rate,HIGH,40.1%,<5%,Bounce rate at 40.1% (threshold: 5%). List hygiene issue.,"Check: 1) List source, 2) Email validation, 3) Recent imports",
+2026-02-06,Nurture_Sequence_Week1,High Bounce Rate,HIGH,19.1%,<5%,Bounce rate at 19.1% (threshold: 5%). List hygiene issue.,"Check: 1) List source, 2) Email validation, 3) Recent imports",
+2026-02-06,,Lead Volume Drop,HIGH,36 leads,109 leads,Lead volume dropped 67.0% below baseline. Possible traffic or form issue.,"Check: 1) Ad campaigns still running, 2) Form functionality, 3) Website errors",Paid Search
+2026-02-05,Nurture_Sequence_Week1,High Bounce Rate,HIGH,20.4%,<5%,Bounce rate at 20.4% (threshold: 5%). List hygiene issue.,"Check: 1) List source, 2) Email validation, 3) Recent imports",
+2026-02-04,Nurture_Sequence_Week1,High Bounce Rate,HIGH,24.1%,<5%,Bounce rate at 24.1% (threshold: 5%). List hygiene issue.,"Check: 1) List source, 2) Email validation, 3) Recent imports",
+2026-02-02,,Lead Volume Drop,HIGH,74 leads,122 leads,Lead volume dropped 39.3% below baseline. Possible traffic or form issue.,"Check: 1) Ad campaigns still running, 2) Form functionality, 3) Website errors",Webinar
+2026-01-29,,Lead Volume Drop,HIGH,74 leads,107 leads,Lead volume dropped 31.0% below baseline. Possible traffic or form issue.,"Check: 1) Ad campaigns still running, 2) Form functionality, 3) Website errors",Organic
+2026-01-24,,Lead Volume Drop,HIGH,74 leads,116 leads,Lead volume dropped 36.4% below baseline. Possible traffic or form issue.,"Check: 1) Ad campaigns still running, 2) Form functionality, 3) Website errors",LinkedIn
+2026-01-24,,Lead Volume Drop,HIGH,74 leads,107 leads,Lead volume dropped 30.8% below baseline. Possible traffic or form issue.,"Check: 1) Ad campaigns still running, 2) Form functionality, 3) Website errors",Webinar
+2026-01-23,,Lead Volume Drop,HIGH,83 leads,121 leads,Lead volume dropped 31.3% below baseline. Possible traffic or form issue.,"Check: 1) Ad campaigns still running, 2) Form functionality, 3) Website errors",Paid Search
+2026-01-22,,Lead Volume Drop,HIGH,79 leads,113 leads,Lead volume dropped 30.3% below baseline. Possible traffic or form issue.,"Check: 1) Ad campaigns still running, 2) Form functionality, 3) Website errors",Organic
+2026-02-14,,Invalid Email Spike,MEDIUM,5.1%,<5%,Invalid email rate at 5.1%. Email validation broken.,"Check: 1) Form validation rules, 2) API payload, 3) Recent form changes",Webinar
+2026-02-12,,Invalid Email Spike,MEDIUM,5.3%,<5%,Invalid email rate at 5.3%. Email validation broken.,"Check: 1) Form validation rules, 2) API payload, 3) Recent form changes",LinkedIn
+2026-02-10,,Invalid Email Spike,MEDIUM,5.5%,<5%,Invalid email rate at 5.5%. Email validation broken.,"Check: 1) Form validation rules, 2) API payload, 3) Recent form changes",Webinar
+2026-02-09,,Invalid Email Spike,MEDIUM,5.7%,<5%,Invalid email rate at 5.7%. Email validation broken.,"Check: 1) Form validation rules, 2) API payload, 3) Recent form changes",Organic
+2026-02-08,,Invalid Email Spike,MEDIUM,5.9%,<5%,Invalid email rate at 5.9%. Email validation broken.,"Check: 1) Form validation rules, 2) API payload, 3) Recent form changes",LinkedIn
+2026-02-08,,Invalid Email Spike,MEDIUM,5.2%,<5%,Invalid email rate at 5.2%. Email validation broken.,"Check: 1) Form validation rules, 2) API payload, 3) Recent form changes",Content
+2026-02-06,,Duplicate Lead Spike,MEDIUM,11.1%,<10%,Duplicate rate at 11.1%. Deduplication broken.,"Check: 1) SFDC duplicate rules, 2) Matching logic, 3) Integration settings",Paid Search
+2026-02-05,,Invalid Email Spike,MEDIUM,5.2%,<5%,Invalid email rate at 5.2%. Email validation broken.,"Check: 1) Form validation rules, 2) API payload, 3) Recent form changes",Webinar
+2026-02-04,Nurture_Sequence_Week1,Deliverability Drop,MEDIUM,75.9%,94.0%,Deliverability dropped 19.3% below baseline. Possible ISP block or API issue.,"Check: 1) Salesforce API logs, 2) SFMC sending IP reputation, 3) Bounce reasons",
+2026-02-04,,Scoring Model Drift,MEDIUM,Avg: 25.3,Avg: 43.4,Average score deviated 2.9 std devs from baseline. Model may be broken.,"Check: 1) Scoring rules still active, 2) Field mappings, 3) Recent config changes",Lead Scoring Model
+2026-02-03,,Invalid Email Spike,MEDIUM,5.5%,<5%,Invalid email rate at 5.5%. Email validation broken.,"Check: 1) Form validation rules, 2) API payload, 3) Recent form changes",LinkedIn
+2026-02-03,,Scoring Model Drift,MEDIUM,Avg: 25.3,Avg: 43.4,Average score deviated 2.9 std devs from baseline. Model may be broken.,"Check: 1) Scoring rules still active, 2) Field mappings, 3) Recent config changes",Lead Scoring Model
+2026-02-02,,Scoring Model Drift,MEDIUM,Avg: 25.3,Avg: 43.4,Average score deviated 2.9 std devs from baseline. Model may be broken.,"Check: 1) Scoring rules still active, 2) Field mappings, 3) Recent config changes",Lead Scoring Model
+2026-02-01,,Invalid Email Spike,MEDIUM,5.1%,<5%,Invalid email rate at 5.1%. Email validation broken.,"Check: 1) Form validation rules, 2) API payload, 3) Recent form changes",Organic
+2026-01-31,,Invalid Email Spike,MEDIUM,30.8%,<5%,Invalid email rate at 30.8%. Email validation broken.,"Check: 1) Form validation rules, 2) API payload, 3) Recent form changes",LinkedIn
+2026-01-31,,Invalid Email Spike,MEDIUM,5.1%,<5%,Invalid email rate at 5.1%. Email validation broken.,"Check: 1) Form validation rules, 2) API payload, 3) Recent form changes",Content
+2026-01-30,,Invalid Email Spike,MEDIUM,5.2%,<5%,Invalid email rate at 5.2%. Email validation broken.,"Check: 1) Form validation rules, 2) API payload, 3) Recent form changes",Paid Search
+2026-01-30,,Invalid Email Spike,MEDIUM,30.6%,<5%,Invalid email rate at 30.6%. Email validation broken.,"Check: 1) Form validation rules, 2) API payload, 3) Recent form changes",LinkedIn
+2026-01-30,,Invalid Email Spike,MEDIUM,5.2%,<5%,Invalid email rate at 5.2%. Email validation broken.,"Check: 1) Form validation rules, 2) API payload, 3) Recent form changes",Webinar
+2026-01-29,,Invalid Email Spike,MEDIUM,30.2%,<5%,Invalid email rate at 30.2%. Email validation broken.,"Check: 1) Form validation rules, 2) API payload, 3) Recent form changes",LinkedIn
+2026-01-27,,Invalid Email Spike,MEDIUM,5.1%,<5%,Invalid email rate at 5.1%. Email validation broken.,"Check: 1) Form validation rules, 2) API payload, 3) Recent form changes",Organic
+2026-01-27,,Duplicate Lead Spike,MEDIUM,17.6%,<10%,Duplicate rate at 17.6%. Deduplication broken.,"Check: 1) SFDC duplicate rules, 2) Matching logic, 3) Integration settings",Webinar
+2026-01-26,,Invalid Email Spike,MEDIUM,5.1%,<5%,Invalid email rate at 5.1%. Email validation broken.,"Check: 1) Form validation rules, 2) API payload, 3) Recent form changes",Webinar
+2026-01-26,,Duplicate Lead Spike,MEDIUM,17.8%,<10%,Duplicate rate at 17.8%. Deduplication broken.,"Check: 1) SFDC duplicate rules, 2) Matching logic, 3) Integration settings",Webinar
+2026-01-25,,Invalid Email Spike,MEDIUM,5.4%,<5%,Invalid email rate at 5.4%. Email validation broken.,"Check: 1) Form validation rules, 2) API payload, 3) Recent form changes",Webinar
+2026-01-25,,Duplicate Lead Spike,MEDIUM,17.1%,<10%,Duplicate rate at 17.1%. Deduplication broken.,"Check: 1) SFDC duplicate rules, 2) Matching logic, 3) Integration settings",Webinar
+2026-01-24,,Invalid Email Spike,MEDIUM,5.1%,<5%,Invalid email rate at 5.1%. Email validation broken.,"Check: 1) Form validation rules, 2) API payload, 3) Recent form changes",Organic
+2026-01-24,,Invalid Email Spike,MEDIUM,5.4%,<5%,Invalid email rate at 5.4%. Email validation broken.,"Check: 1) Form validation rules, 2) API payload, 3) Recent form changes",Webinar
+2026-01-21,,Invalid Email Spike,MEDIUM,5.3%,<5%,Invalid email rate at 5.3%. Email validation broken.,"Check: 1) Form validation rules, 2) API payload, 3) Recent form changes",Organic
